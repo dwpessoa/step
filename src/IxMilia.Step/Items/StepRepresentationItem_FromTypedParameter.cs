@@ -70,6 +70,9 @@ namespace IxMilia.Step.Items
                     case StepItemTypeExtensions.VertexPointText:
                         item = StepVertexPoint.CreateFromSyntaxList(binder, simpleItem.Parameters);
                         break;
+                    case StepItemTypeExtensions.ToroidalSurfaceText:
+                        item = StepToroidalSurface.CreateFromSyntaxList(binder, simpleItem.Parameters);
+                        break;
                     default:
                         if (UnsupportedItemTypes.Add(simpleItem.Keyword))
                         {
