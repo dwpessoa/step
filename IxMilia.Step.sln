@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IxMilia.Step", "src\IxMilia.Step\IxMilia.Step.csproj", "{7BEB4FB6-8A3E-4690-B06C-357130AB4226}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IxMilia.Step", "src\IxMilia.Step\IxMilia.Step.csproj", "{7BEB4FB6-8A3E-4690-B06C-357130AB4226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IxMilia.Step.Test", "src\IxMilia.Step.Test\IxMilia.Step.Test.csproj", "{078EDA8D-F0BB-4D60-A7BD-1782A9CF713C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IxMilia.Step.Test", "src\IxMilia.Step.Test\IxMilia.Step.Test.csproj", "{078EDA8D-F0BB-4D60-A7BD-1782A9CF713C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3A42038-6DF3-4F04-9702-B1DCE9736098}
 	EndGlobalSection
 EndGlobal

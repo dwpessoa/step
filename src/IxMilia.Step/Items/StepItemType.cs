@@ -21,7 +21,8 @@ namespace IxMilia.Step.Items
         OrientedEdge,
         Plane,
         Vector,
-        VertexPoint
+        VertexPoint,
+        ToroidalSurface
     }
 
     internal static class StepItemTypeExtensions
@@ -44,6 +45,7 @@ namespace IxMilia.Step.Items
         public const string PlaneText = "PLANE";
         public const string VectorText = "VECTOR";
         public const string VertexPointText = "VERTEX_POINT";
+        public const string ToroidalSurfaceText = "TOROIDAL_SURFACE";
 
         public static string GetItemTypeString(this StepItemType type)
         {
@@ -85,6 +87,8 @@ namespace IxMilia.Step.Items
                     return VectorText;
                 case StepItemType.VertexPoint:
                     return VertexPointText;
+                case StepItemType.ToroidalSurface:
+                    return ToroidalSurfaceText;
                 default:
                     throw new InvalidOperationException("Unexpected item type " + type);
             }
